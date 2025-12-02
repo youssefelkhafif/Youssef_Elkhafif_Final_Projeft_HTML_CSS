@@ -1,12 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/css/app.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <!--before nav-->
+
+    <section class="before-nav">
+        <div class="before-nav-left">
+            <p>
+                <i class="bi bi-phone"></i>
+                +1 5589 55488 55
+            </p>
+            <p>
+                <i class="bi bi-stopwatch"></i>
+                Mon-Sat: 11:00 AM - 23:00 PM
+            </p>
+        </div>
+        <div class="before-nav-right">
+            <button>Booka a table</button>
+        </div>
+    </section>
+
+    <!--nav-bar-->
+    <nav class="nav-bar">
+        <div class="nav-bar-left">
+            <a href="">Delicious</a>
+        </div>
+        <div class="nav-bar-right">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Menu</a>
+            <a href="">Specials</a>
+            <a href="">Event</a>
+            <a href="">Chefs</a>
+            <a href="">Gallery</a>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Dropdown
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+            <a href="">Contact</a>
+        </div>
+    </nav>
+
+
+    <!--slide-section1-->
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./public/images/hero-carousel/hero-carousel-1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1> <span> Delicious </span>Restaurant</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div class="three-button">
+                        <button>Our Menu</button>
+                        <button>Book a table</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./public/images/hero-carousel/hero-carousel-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>At vero eos et accusamus</h1>
+                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
+                        maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+                        Temporibus autem quibusdam et aut officiis debitis aut.</p>
+                    <div class="three-button">
+                        <button>Our Menu</button>
+                        <button>Book a table</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./public/images/hero-carousel/hero-carousel-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Temporibus autem quibusdam</h1>
+                    <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                        odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt
+                        omnis iste natus error sit voluptatem accusantium.</p>
+                    <div class="three-button">
+                        <button>Our Menu</button>
+                        <button>Book a table</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--section2-->
+
+    <section class="section-2">
+        <div class="left-section-video">
+            <iframe src="https://www.youtube.com/embed/Y7f98aduVJ8" width="500px" height="500px">
+                <img src="./public/images/about.jpg" alt="">
+            </iframe>
+        </div>
+        <div class="right-section-infu">
+            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+            <div>
+                <div class="check-para">
+                    <i class="bi bi-check2-all"></i>
+                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="check-para">
+                    <i class="bi bi-check2-all"></i>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                </div>
+                <div class="check-para">
+                    <i class="bi bi-check2-all"></i>
+                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</p>
+                </div>
+            </div>
+            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident</p>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
