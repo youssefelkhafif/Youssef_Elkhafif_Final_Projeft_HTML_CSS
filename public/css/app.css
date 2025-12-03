@@ -12181,8 +12181,84 @@ footer {
   display: none;
 }
 
-#check-1:checked ~ .all-left-button-section-4 {
-  display: inline;
+#check-1:checked ~ .left-button-section-4 > .all-left-button-section-4 {
+  display: flex;
+}
+
+#check-1:checked ~ .right-button-section-4 > .all-left-button-section-4 {
+  display: flex;
+}
+
+#check-2:checked ~ .left-button-section-4 > #all-left-3 {
+  display: none;
+}
+
+#check-2:checked ~ .left-button-section-4 > #all-left-4 {
+  display: none;
+}
+
+#check-2:checked ~ .left-button-section-4 > #all-left-5 {
+  display: none;
+}
+
+#check-2:checked ~ .right-button-section-4 > #all-right-1 {
+  display: none;
+}
+
+#check-2:checked ~ .right-button-section-4 > #all-right-2 {
+  display: none;
+}
+
+#check-2:checked ~ .right-button-section-4 > #all-right-3 {
+  display: none;
+}
+
+#check-3:checked ~ .left-button-section-4 > #all-left-1 {
+  display: none;
+}
+
+#check-3:checked ~ .left-button-section-4 > #all-left-2 {
+  display: none;
+}
+
+#check-3:checked ~ .left-button-section-4 > #all-left-3 {
+  display: none;
+}
+
+#check-3:checked ~ .left-button-section-4 > #all-left-5 {
+  display: none;
+}
+
+#check-3:checked ~ .right-button-section-4 > #all-right-1 {
+  display: none;
+}
+
+#check-3:checked ~ .right-button-section-4 > #all-right-4 {
+  display: none;
+}
+
+#check-4:checked ~ .left-button-section-4 > #all-left-1 {
+  display: none;
+}
+
+#check-4:checked ~ .left-button-section-4 > #all-left-2 {
+  display: none;
+}
+
+#check-4:checked ~ .left-button-section-4 > #all-left-4 {
+  display: none;
+}
+
+#check-4:checked ~ .right-button-section-4 > #all-right-2 {
+  display: none;
+}
+
+#check-4:checked ~ .right-button-section-4 > #all-right-3 {
+  display: none;
+}
+
+#check-4:checked ~ .right-button-section-4 > #all-right-4 {
+  display: none;
 }
 
 .section-2 {
