@@ -12577,6 +12577,40 @@ footer {
   border: 6px solid rgba(196, 186, 186, 0.4745098039);
 }
 
+.carousel-section {
+  position: absolute;
+  top: 100px;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  padding-inline: 150px;
+}
+
+.icon-buttom-carousel-section div {
+  display: flex;
+  column-gap: 5px;
+}
+
+.line-1 {
+  width: 60px;
+  height: 2px;
+  background-color: #ffb03b;
+}
+
+.buttom-carousel-section div h3, .buttom-carousel-section div .h3 {
+  font-family: "Pacifico", cursive;
+  color: white;
+}
+
+.buttom-carousel-section div h4, .buttom-carousel-section div .h4, .buttom-carousel-section div p {
+  color: white;
+}
+
+.buttom-carousel-section div i {
+  color: #ffb03b;
+  font-weight: 900;
+}
+
 body {
   margin: 0%;
   padding: 0%;
