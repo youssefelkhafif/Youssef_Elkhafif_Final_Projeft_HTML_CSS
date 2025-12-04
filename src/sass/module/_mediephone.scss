@@ -162,7 +162,7 @@ body{
     // .section4-menu
 
     body .section-4{
-      margin-top: 200px;
+      margin-top: 350px;
     }
 
     .section-4 .button-section-4 {
@@ -195,12 +195,78 @@ body{
     // section2
 
     body .section-2{
+      margin-top: 60px;
+      margin-bottom: 223px;
       flex-direction: column;
+      padding-inline: 20px;
+      height: unset;
+      row-gap: 20px;
+    }
+
+    .section-2 .left-section-video div img{
+      width: 100%;
+    }
+
+    .section-2 .left-section-video div .btn{
+      top: 282vw;
+      left: 47vw;
+    } 
+
+
+    .section-2 .right-section-infu{
+      width: 100%;
+    }
+
+    #carouselExample{
+      width: 100%;
+    }
+
+
+    // carousel
+
+    body .sction-1{
+      width: 100%;
+    }
+
+    .sction-1 .carousel-inner .carousel-item #te{
+      z-index: 555;
+      top: 0px;
+      text-align: unset;
       
     }
 
 
 
+    body .nav-bar{
+      position: relative;
+      width: 100%;
+      top: 0px;
+    }
+
+
+    .nav-bar .nav-bar-right{
+      display: none;
+    }
+
+
+    
+    body .before-nav{
+      position: relative;
+      width: 100%;
+      top: 0px;
+      padding-inline: unset;
+      column-gap: unset;
+      
+    }
+
+    .before-nav .before-nav-left{
+      display: none;
+    }
+
+    .before-nav .before-nav-right{
+      position: absolute;
+      right: 0px;
+    }
   
 
  
