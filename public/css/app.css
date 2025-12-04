@@ -11869,6 +11869,7 @@ body {
 @media (max-width: 400px) {
   body footer {
     align-items: unset;
+    margin-top: 100px;
   }
   .top-footer {
     flex-direction: column;
@@ -11878,21 +11879,29 @@ body {
     flex-direction: column;
     padding: unset;
     row-gap: 20px;
+    margin-top: 10px;
   }
   .section-10 .left-section-10 {
     width: unset;
+  }
+  .section-10 .right-section-10 {
+    width: 100%;
+  }
+  body .section-9 {
+    margin-top: 10px;
   }
   .section-9 .buttom-section-9 iframe {
     width: 100%;
   }
   body .carousel {
     width: 100%;
+    margin-top: 100px;
   }
   .carousel-item .inside-slide-section {
     padding-inline: 55px;
   }
   body .section-8 {
-    margin-top: 64vh;
+    margin-top: 30vh;
   }
   .buttom-section-8 .top-buttom-section-8 {
     flex-direction: column;
@@ -11922,7 +11931,7 @@ body {
     left: 90px;
   }
   body .section-7 {
-    margin-top: 60vh;
+    margin-top: 45vh;
   }
   .section-7 .buttom-section-7 {
     padding-inline: 10px;
@@ -11964,19 +11973,29 @@ body {
     display: none;
   }
   body .section-4 {
-    margin-top: 350px;
+    margin-top: 60vw;
+    margin-bottom: 80vw;
   }
   .section-4 .button-section-4 {
     flex-direction: column;
     width: 100%;
   }
   .button-section-4 .left-button-section-4 .all-left-button-section-4 {
-    width: 80%;
-    column-gap: unset;
+    width: 80px;
   }
   .button-section-4 .left-button-section-4 .all-right-button-section-4 {
     width: 80%;
     column-gap: unset;
+  }
+  .button-section-4 .right-button-section-4 .all-left-button-section-4 {
+    width: 80%;
+    column-gap: unset;
+  }
+  .button-section-4 .all-left-button-section-4 div {
+    width: 200px;
+  }
+  .right-button-section-4 .all-left-button-section-4 div {
+    width: 200px;
   }
   .section-3 .buttom-section-3 {
     flex-direction: column;
@@ -11996,8 +12015,10 @@ body {
     width: 100%;
   }
   .section-2 .left-section-video div .btn {
-    top: 282vw;
+    top: 325vw;
     left: 47vw;
+    background-color: orange;
+    border: 1px solid orange;
   }
   .section-2 .right-section-infu {
     width: 100%;
@@ -12008,21 +12029,17 @@ body {
   body .sction-1 {
     width: 100%;
   }
-  .sction-1 .carousel-inner .carousel-item #te {
-    z-index: 555;
-    top: 0px;
-    text-align: unset;
+  .sction-1 .carousel-inner .carousel-caption {
+    display: none;
   }
   body .nav-bar {
-    position: relative;
     width: 100%;
-    top: 0px;
+    top: 80px;
   }
   .nav-bar .nav-bar-right {
     display: none;
   }
   body .before-nav {
-    position: relative;
     width: 100%;
     top: 0px;
     padding-inline: unset;
@@ -12452,6 +12469,17 @@ footer {
   position: absolute;
   top: 69vw;
   left: 345px;
+}
+
+.left-section-video div .btn {
+  border-radius: 50%;
+  background-color: #f08c0a;
+  border: 1px solid #f08c0a;
+}
+
+.left-section-video div .btn:active {
+  background-color: #f08c0a;
+  border: 1px solid #f08c0a;
 }
 
 .right-section-infu {
