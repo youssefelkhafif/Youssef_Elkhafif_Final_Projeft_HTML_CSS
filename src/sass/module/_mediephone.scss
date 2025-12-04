@@ -1,7 +1,7 @@
-body{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
 
@@ -15,7 +15,7 @@ body{
   // footer
   body footer {
     align-items: unset;
-    margin-top:100px ;
+    margin-top: 100px;
     // margin-bottom: ;
   }
 
@@ -35,52 +35,52 @@ body{
 
   }
 
-  .section-10 .left-section-10{
+  .section-10 .left-section-10 {
     width: unset;
   }
 
-  .section-10 .right-section-10{
+  .section-10 .right-section-10 {
     width: 100%;
   }
 
   // section-9
 
-  body .section-9{
+  body .section-9 {
     margin-top: 10px;
   }
 
 
-  .section-9 .buttom-section-9 iframe{
+  .section-9 .buttom-section-9 iframe {
     width: 100%;
-    
+
 
   }
 
   // slide-section
 
-  body .carousel{
+  body .carousel {
     width: 100%;
     margin-top: 100px;
   }
 
-  .carousel-item .inside-slide-section{
+  .carousel-item .inside-slide-section {
     padding-inline: 55px;
   }
 
   // chef
 
-  body .section-8{
+  body .section-8 {
     margin-top: 30vh;
   }
 
 
-  .buttom-section-8 .top-buttom-section-8{
+  .buttom-section-8 .top-buttom-section-8 {
     flex-direction: column;
     width: 100%;
     row-gap: 60px;
   }
 
-  .buttom-section-8 .top-buttom-section-8 div{
+  .buttom-section-8 .top-buttom-section-8 div {
     width: 100%;
     height: 245px;
   }
@@ -88,221 +88,318 @@ body{
   .buttom-section-8 .top-buttom-section-8 img {
     width: 100%;
     height: 245px;
-    
+
     // display: none;
   }
 
-  .section-8 .buttom-buttom-section-8 .inside-buttom-buttom-section-8-first{
+  .section-8 .buttom-buttom-section-8 .inside-buttom-buttom-section-8-first {
     width: unset;
     top: -662px;
     left: 90px;
   }
 
-   .section-8 .buttom-buttom-section-8 .inside-buttom-buttom-section-8-second{
+  .section-8 .buttom-buttom-section-8 .inside-buttom-buttom-section-8-second {
     width: 192px;
     top: -354px;
     left: 90px;
   }
 
-   .section-8 .buttom-buttom-section-8 .inside-buttom-buttom-section-8-last{
+  .section-8 .buttom-buttom-section-8 .inside-buttom-buttom-section-8-last {
     width: 192px;
     left: 90px;
-   }
+  }
 
   //  section-7"
 
-  body .section-7{
+  body .section-7 {
     margin-top: 45vh;
   }
 
-  .section-7 .buttom-section-7{
+  .section-7 .buttom-section-7 {
     padding-inline: 10px;
   }
 
-  .section-7 .buttom-section-7 .top-buttom-section-7{
+  .section-7 .buttom-section-7 .top-buttom-section-7 {
     flex-direction: column;
     row-gap: 10px;
   }
 
-  .section-7 .buttom-section-7 .buttom-buttom-section-7{
+  .section-7 .buttom-section-7 .buttom-buttom-section-7 {
     flex-direction: column;
     row-gap: 10px;
   }
 
   // section6
 
-  
-  .section-6 .buttom-section-4{
+
+  .section-6 .buttom-section-4 {
     flex-direction: column;
     padding-inline: 12px;
     row-gap: 20px;
   }
 
-  .section-6 .buttom-section-4 .left-buttom-section-4{
+  .section-6 .buttom-section-4 .left-buttom-section-4 {
     width: 100%;
   }
 
-  .section-6 .buttom-section-4 .right-buttom-section-4{
+  .section-6 .buttom-section-4 .right-buttom-section-4 {
     width: 100%;
   }
 
   // crousel-section
 
-  body .carousel{
+  body .carousel {
     width: 100%;
   }
 
-  .carousel-inner .carousel-item .carousel-section{
+  .carousel-inner .carousel-item .carousel-section {
     flex-direction: column;
     top: -100px;
     padding: 50px 50px;
   }
 
-  .carousel-inner .carousel-item .carousel-section .top-carousel-section img{
+  .carousel-inner .carousel-item .carousel-section .top-carousel-section img {
     width: 100%;
 
   }
 
-  .carousel-inner .carousel-item .carousel-section .buttom-carousel-section{
+  .carousel-inner .carousel-item .carousel-section .buttom-carousel-section {
     width: 100%;
   }
 
   // section-5
-    body .all-section-5{
-      display: none;
-    }
+  body .all-section-5 {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 420px;
+    margin-bottom: 350px;
+  }
 
+   .section-5 .middle-section-5{
+    width: 100%;
+    height: 1px;
+   }
 
-    // .section4-menu
+  .all-section-5 .section-5{
+    flex-direction: column;
+    width: 100%;
+  }
 
-    body .section-4{
-      margin-top: 60vw;
-      margin-bottom: 80vw;
-    }
+  .section-5 .right-section-5{
+    flex-direction: column;
+    width: 100%;
+  }
 
-    .section-4 .button-section-4 {
-      flex-direction: column;
-      width: 100%;
-    }
+  .section-5 .right-section-5 div {
+    flex-direction: column;
+  }
 
-    .button-section-4 .left-button-section-4 .all-left-button-section-4{
-      width: 80px;
-      // column-gap: unset;
-    }
+  .section-5 .right-section-5 div .ya-img{
+    order: 1;
+  }
 
-    .button-section-4 .left-button-section-4 .all-right-button-section-4{
-      width: 80%;
-      column-gap: unset;
-    }
+  .section-5 .right-section-5 div .ya-para{
+    order: 2;
+  }
 
-    .button-section-4 .right-button-section-4 .all-left-button-section-4{
-      width: 80%;
-      column-gap: unset;
-    }
-
-    .button-section-4 .all-left-button-section-4 div {
-      width: 200px;
-    }
-
-    .right-button-section-4 .all-left-button-section-4 div{
-      width: 200px;
-    }
-
-
-
-    // section3
-
-    .section-3 .buttom-section-3{
-      flex-direction: column;
-      
-    }
-
-    .section-3 .buttom-section-3 div {
-      width: 100%;
-    }
-
-    // section2
-
-    body .section-2{
-      margin-top: 60px;
-      margin-bottom: 223px;
-      flex-direction: column;
-      padding-inline: 20px;
-      height: unset;
-      row-gap: 20px;
-    }
-
-    .section-2 .left-section-video div img{
-      width: 100%;
-    }
-
-    .section-2 .left-section-video div .btn{
-      top: 325vw;
-      left: 47vw;
-      background-color: orange;
-      border: 1px solid orange;
-    } 
-
-
-    .section-2 .right-section-infu{
-      width: 100%;
-    }
-
-    #carouselExample{
-      width: 100%;
-    }
-
-
-    // carousel
-
-    body .sction-1{
-      width: 100%;
-      // height: 60vh;
-    }
-
-    .sction-1 .carousel-inner .carousel-caption{
-      display:none;
-      
-      
-      // position: absolute;
-      
-      
-      
-    }
-
-
-
-    body .nav-bar{
-      // position: relative;
-      width: 100%;
-      top: 80px;
-    }
-
-
-    .nav-bar .nav-bar-right{
-      display: none;
-    }
-
-
-    
-    body .before-nav{
-      // position: relative;
-      width: 100%;
-      top: 0px;
-      padding-inline: unset;
-      column-gap: unset;
-      
-    }
-
-    .before-nav .before-nav-left{
-      display: none;
-    }
-
-    .before-nav .before-nav-right{
-      position: absolute;
-      right: 0px;
-    }
   
 
- 
+
+  // .section4-menu
+
+  body .section-4 {
+    margin-top: 60vw;
+    margin-bottom: 80vw;
+  }
+
+  .section-4 .button-section-4 {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .button-section-4 .left-button-section-4 .all-left-button-section-4 {
+    width: 80px;
+    // column-gap: unset;
+  }
+
+  .button-section-4 .left-button-section-4 .all-right-button-section-4 {
+    width: 80%;
+    column-gap: unset;
+  }
+
+  .button-section-4 .right-button-section-4 .all-left-button-section-4 {
+    width: 80%;
+    column-gap: unset;
+  }
+
+  .button-section-4 .all-left-button-section-4 div {
+    width: 200px;
+  }
+
+  .right-button-section-4 .all-left-button-section-4 div {
+    width: 200px;
+  }
+
+
+
+  // section3
+
+  .section-3 .buttom-section-3 {
+    flex-direction: column;
+
+  }
+
+  .section-3 .buttom-section-3 div {
+    width: 100%;
+  }
+
+  // section2
+
+  body .section-2 {
+    margin-top: 60px;
+    margin-bottom: 223px;
+    flex-direction: column;
+    padding-inline: 20px;
+    height: unset;
+    row-gap: 20px;
+  }
+
+  .section-2 .left-section-video div img {
+    width: 100%;
+  }
+
+  .section-2 .left-section-video div .btn {
+    top: 325vw;
+    left: 47vw;
+    background-color: orange;
+    border: 1px solid orange;
+  }
+
+
+  .section-2 .right-section-infu {
+    width: 100%;
+  }
+
+  #carouselExample {
+    width: 100%;
+  }
+
+
+  // carousel
+
+  body .sction-1 {
+    width: 100%;
+    // height: 60vh;
+  }
+
+  .sction-1 .carousel-inner .carousel-caption {
+    display: none;
+
+
+    // position: absolute;
+
+
+
+  }
+
+
+
+  body .nav-bar {
+    // position: relative;
+    width: 100%;
+    top: 80px;
+  }
+
+
+
+
+
+
+  body .before-nav {
+    // position: relative;
+    width: 100%;
+    top: 0px;
+    padding-inline: unset;
+    column-gap: unset;
+
+  }
+
+  .before-nav .before-nav-left {
+    display: none;
+  }
+
+  .before-nav .before-nav-right {
+    position: absolute;
+    right: 0px;
+  }
+
+  .nav-bar .close,
+  .nav-bar #menu {
+    display: none;
+    position: absolute;
+    right: 5px;
+    color: white;
+    font-weight: 800;
+  }
+
+  .nav-bar .open {
+    display: block;
+    position: absolute;
+    right: 5px;
+    color: white;
+    font-weight: 800;
+  }
+
+
+
+  .nav-bar-right .dropdown .btn {
+    display: none;
+  }
+
+
+  .nav-bar .nav-bar-right {
+    width: 100%;
+    height: 100%;
+    padding-top: 45vw;
+    padding-bottom: 125vw;
+    padding-inline: 10px;
+    align-items: unset;
+    row-gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    // background-color: white;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    z-index: 9998;
+    position: absolute;
+    top: 130px;
+    left: -900px;
+    transition: 0.4s;
+  }
+
+  .nav-bar .nav-bar-right a{
+    color: black;
+  }
+
+
+  #menu:checked~ .open {
+    display: none;
+  }
+
+  #menu:checked~ .close {
+    display: block;
+    position: absolute;
+    right: 5px;
+    color: white;
+    font-weight: 800;
+  }
+
+  #menu:checked~ .nav-bar-right{
+    left: 0;
+  }
+
+
+
+
+
 }
