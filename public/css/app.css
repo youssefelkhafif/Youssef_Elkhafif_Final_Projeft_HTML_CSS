@@ -12272,6 +12272,12 @@ footer {
   height: 90vh;
 }
 
+.btn {
+  position: absolute;
+  top: 69vw;
+  left: 345px;
+}
+
 .right-section-infu {
   width: 50%;
 }
