@@ -1,6 +1,9 @@
 # 🍽️ Youssef Elkhafif – Final Restaurant Project  
 ### ✨ Built With: HTML • CSS • SASS/SCSS • Bootstrap 5
 
+🔗 Live Demo:
+👉 https://youssefelkhafif.github.io/Youssef_Elkhafif_Final_Projeft_HTML_CSS/
+
 This repository contains my final web development project: a fully responsive restaurant website designed using semantic HTML, modern CSS, structured SASS, and Bootstrap components.
 
 ## ⭐ Project Overview
